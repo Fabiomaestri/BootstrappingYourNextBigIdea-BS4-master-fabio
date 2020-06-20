@@ -2,13 +2,11 @@ body{
 font-family: 'Roboto', sans-serif;
 background-color: blue;
 }
-.alert-container{
-}
+.alert-container{}
 
-.container callout-container{
+.callout-container{
     height: 100vh;
-
-    background: url("../images/whiskey-cover.jpg") no-repeat center center fixed; 
+    background: src:("../images/whiskey-cover.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
