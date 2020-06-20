@@ -23,9 +23,33 @@ background-color: blue;
 
 .top5-container{}
 
+/*block-dividers*/
+
+.block-dividers{
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: orange
+}
+
 /*jumbotron*/
-.jumbotron-header{
+
+.jumbotron{
+    background: transparent;
+}
+.jumbotron-header {
     color:white;
     font-weight: bold;
     margin-bottom: 30px;
+}
+
+.jumbotron .lead{
+    color: #d0d0d0;
+    margin: 35px 0px;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
 }
