@@ -6,11 +6,15 @@ background-color: blue;
 
 .callout-container{
     height: 100vh;
-    background: src:("../images/whiskey-cover.jpg") no-repeat bottom right fixed;
+    background: url("/images/whiskey-cover.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .quotes-container{}
@@ -18,3 +22,10 @@ background-color: blue;
 .features-container{}
 
 .top5-container{}
+
+/*jumbotron*/
+.jumbotron-header{
+    color:white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
