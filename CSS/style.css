@@ -183,6 +183,18 @@ background-color: rgba(0, 0, 0, 0.25);
     color: #f05f40;
 }
 
+.top5-container{
+    height: 70vh;
+    background: url("/images/top5-whiskey.jpg") no-repeat left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    position: relative;
+    padding-top: 125px;
+}
+
 .top5{
     margin-bottom: 40px;
 }
