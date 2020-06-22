@@ -2,7 +2,24 @@ body{
 font-family: 'Roboto', sans-serif;
 background-color: #fcfcfc;
 }
-.alert-container{}
+
+.container-wrapper{}
+
+.container-wrapper--red{
+    background-color: #f05f40;
+    color: white;
+}
+
+.alert-container .col-12{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert{
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+}
 
 .callout-container{
     height: 100vh;
@@ -32,19 +49,78 @@ background-color: #fcfcfc;
 
 .features-container{}
 
-.top5-container{}
+/*page-headers*/
+.page-header{
+    margin-bottom: 25px;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2{
+    margin-top: 0;
+}
+
+.top5-container{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
 
 /*block-dividers*/
-
-.block-dividers{
+.block-divider{
     width: 75px;
     height: 5px;
     border: 0;
-    background-color: orange
+    background-color: #444444;
+}
+
+.block-divider--orange{
+    background-color: #f05f40;
+}
+
+.block-divider--white{
+    background-color: white;
+}
+
+.block-divider--short{
+    width: 35px;
+}
+
+/*content containers*/
+.content-container{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/*navbar*/
+.navalert-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar{
+margin-bottom: 0;
+border: 0;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.25);
+}
+
+.navbar .navbar-toggler{
+    border: 0;
+}
+
+.navbar-dark .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a{
+    font-weight: bold;
 }
 
 /*jumbotron*/
-
 .jumbotron{
     background: transparent;
 }
@@ -84,4 +160,33 @@ background-color: #fcfcfc;
 .btn--red:active:focus{
     background-color: #d65235;
     border-color:#d65235;
+}
+
+.feature{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i{
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn{
+    background-color: white;
+    border-color:white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
+
+.top5{
+    margin-bottom: 40px;
+}
+
+.container .top5-container .top5 h2{
+    text-align: center;   
 }
